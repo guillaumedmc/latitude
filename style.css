@@ -1,0 +1,53 @@
+.background {
+  background-color: #C6DEE4;
+  height: 110vh;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.background h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.6rem;
+}
+
+.text {
+  text-align: center;
+  padding-top: 30vh;
+  font-size: 4vw;
+}
+
+.bandeau {
+  height: 91vh;
+  padding-top: 10vh;
+}
+
+.photo-bagage {
+  text-align: center;
+}
+
+.photo-bagage img {
+  height: 45vh;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.presentation-titre h1 {
+  text-align: center;
+}
+
+.presentation-contenu p {
+  text-align: justify;
+  margin-top: 2vh;
+}
+
+.titre-question h1 {
+  margin-bottom: 4vh;
+}
+
+.padding-row {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
