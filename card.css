@@ -37,27 +37,17 @@
     top:60%;
     left:0;
     width:100%;
-    height:300px;
+    height:100%;
     padding:27px 35px 35px;
-    -webkit-transition: all 200ms ease-out;
-       -moz-transition: all 200ms ease-out;
-         -o-transition: all 200ms ease-out;
-            transition: all 200ms ease-out;
-}
-#product-card.animate .stats-container{
-    top:45%;
-    -webkit-transition: all 200ms ease-out;
-       -moz-transition: all 200ms ease-out;
-         -o-transition: all 200ms ease-out;
-            transition: all 200ms ease-out;
+    overflow: hidden;
 }
 
-#product-card.voir-tout .stats-container{
-    top: 0%;
-    -webkit-transition: all 200ms ease-out;
-       -moz-transition: all 200ms ease-out;
-         -o-transition: all 200ms ease-out;
-            transition: all 200ms ease-out;
+#product-card.animate .stats-container{
+    top:0%;
+    -webkit-transition: all 500ms ease-out;
+       -moz-transition: all 500ms ease-out;
+         -o-transition: all 500ms ease-out;
+            transition: all 500ms ease-out;
 }
 
 .stats-container .product_name{

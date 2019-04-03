@@ -1,18 +1,33 @@
 /* Main navbar */
-.navbar-wagon {
+.navbar-wagon-xs {
   transition: all 0.3s ease;
   height: 9vh;
-  padding: 0px 30px;
-  display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Open Sans', sans-serif;
-  position: sticky;
+  position: fixed;
   top: 0px;
+  right: 0px;
+  left: 0px;
   z-index: 10;
   background-color: #C6DEE4;
+  display: flex;
 }
 
+.navbar-wagon-xl {
+  transition: all 0.3s ease;
+  height: 9vh;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 10;
+  background-color: #C6DEE4;
+  padding: 0 20vw;
+}
 /* Right section */
 .navbar-wagon-right {
   display: flex;
@@ -23,8 +38,18 @@
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  display: flex;
 }
+
+.navbar-wagon-item-xs {
+  cursor: pointer;
+  padding: 0 3vh;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
 
 /* Navbar link */
 .navbar-wagon-link {
@@ -75,9 +100,14 @@
 }
 
 .fas {
-  font-size: 5vw;
+  font-size: 8vw;
 }
 
-.navbar-wagon img {
+.navbar-wagon-xl img {
   height: 7vh;
 }
+
+.navbar-wagon-xs img {
+  height: 7vh;
+}
+

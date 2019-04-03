@@ -29,30 +29,69 @@
 <body>
   <div class="background">
     <div id="header"></div>
-    <div class="container bandeau">
+      <div class="container bandeau">
+      <div class="presentation-titre">
+        <h1>Un large choix de bagages et de maroquineries de grandes marques</h1>
+      </div>
       <div class="row">
-        <div class="col-12 col-md-4 photo-bagage">
-          <img src="images/bagage.jpg" alt="bagage en cuir">
-        </div>
-        <div class="col-12 col-md-8">
-          <div class="presentation-titre">
-            <h1>Un large choix de bagages et de maroquineries de grandes marques</h1>
+        <div class="col-12 col-md-6 photo-bagage">
+          <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="images/maro1.jpg" style="width:100%">
+              <div class="text">Notre boutique Nantes Beaujoire</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="images/maro2.jpg" style="width:100%">
+              <div class="text">Notre boutique Nantes Beaujoire</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" style="text-decoration: none;" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" style="text-decoration: none;" onclick="plusSlides(1)">&#10095;</a>
           </div>
+          <br>
+
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
           <div class="presentation-contenu">
-            <p>Depuis 1994, la maroquinerie Latitude vous accueille dans <a href="notre-boutique.html">sa boutique</a> situé dans le Centre Commercial Carrefour La Beaujoire à Nantes.
+            <p>Depuis 1994, notre maroquinerie Latitude vous accueille dans <a href="notre-boutique">sa boutique</a> située dans le Centre Commercial Carrefour La Beaujoire à Nantes.
             <br>
             <br>
-            Notre maroquinerie multi-marques vous propose <a href="nos-produits.html">un très large choix </a>de sacs, cartables, bagages, petite maroquinerie et accessoires de qualité et au meilleur prix. Latitude propose une sélection de produits pour tous les budgets et tous les styles : les premiers prix de sacs en synthétique sont autour de 15-20€ et de 50-60€ pour les sacs en cuir.
+            Grace à notre savoir-faire, nous fournissons à nos clients un large choix de sacs, bagages, petite maroquinerie et accessoires, ainsi que des conseils personnalisés et un service après-vente de qualité sur tous nos produits.
             <br>
-            <br>
-            La maroquinerie Latitude offre 10% de réduction tous les jeudis aux détenteurs de la Carte Pass, ainsi que des promotions et remises exceptionnelles tout au long de l’année.
             </p>
           </div>
+        </div>
+      </div>
+      <div class="row nos-atouts">
+        <div class="presentation-titre">
+          <h1>Nos atouts</h1>
+        </div>
+        <div class="col-12 col-md-4 atouts">
+          <img src="images/product.png" height="40px" alt="">
+          <p> Notre maroquinerie multi-marques vous propose <a href="nos-produits">un très large choix </a>de sacs, cartables, bagages, petite maroquinerie et accessoires de qualité et au meilleur prix.</p>
+        </div>
+        <div class="col-12 col-md-4 atouts">
+          <img src="images/discount.png" height="40px" alt="">
+          <p> La maroquinerie Latitude offre 10% de réduction tous les jeudis aux détenteurs de la Carte Pass, ainsi que des promotions et remises exceptionnelles tout au long de l’année.</p>
+        </div>
+        <div class="col-12 col-md-4 atouts">
+          <img src="images/paiement.png" height="40px" alt="">
+          <p> Nous acceptons tous les moyens de paiements, y compris les chèques cadeaux Cadhoc.</p>
         </div>
       </div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
 </body>
 </html>
