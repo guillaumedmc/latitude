@@ -58,6 +58,20 @@
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+  display: inline-block;
+}
+
+.navbar-wagon-link:after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: black;
+  transition: 500ms;
+}
+
+.navbar-wagon-link:hover:after {
+  width: 100%;
 }
 
 .navbar-wagon-link:hover {
@@ -110,4 +124,3 @@
 .navbar-wagon-xs img {
   height: 7vh;
 }
-

@@ -72,6 +72,7 @@ p {
   padding-bottom:56.25%;
   position:relative;
   height:0;
+  margin-bottom: 5vh;
 }
 
 .map-responsive iframe {
@@ -102,11 +103,12 @@ p {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -20%;
   padding: 16px;
   color: white;
+  opacity: 0.6;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 12vh !important;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -179,6 +181,10 @@ p {
 
 .atouts {
   text-align: center;
+  margin-top: 3vh;
+}
+
+.atouts p {
   margin-top: 1vh;
 }
 
@@ -190,4 +196,9 @@ p {
 .images-magasin {
   width: 100%;
   border-radius: 4px;
+}
+
+.presentation-contenu p {
+  margin-bottom: 0;
+  margin-top: 1vh;
 }
