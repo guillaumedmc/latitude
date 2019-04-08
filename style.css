@@ -1,5 +1,5 @@
 html, body {
-  background-color: #C6DEE4 !important;
+/*  background-color: #C6DEE4 !important;*/
   padding-top: 5vh;
 }
 
@@ -7,16 +7,17 @@ p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   color: #898989;
+  font-weight: lighter;
 }
 
-.background h1, h2, h3 {
+.background h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 .background h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .text {
@@ -43,7 +44,7 @@ p {
 
 .presentation-titre h1 {
   text-align: center;
-  margin-top: 0;
+  margin-top: 4vh;
   margin-bottom: 4vh;
 }
 
@@ -138,6 +139,7 @@ p {
   bottom: 1vh;
   width: 100%;
   text-align: center;
+  background-color: rgba(15, 15, 15, 0.3);
 }
 
 /* The dots/bullets/indicators */
@@ -194,11 +196,34 @@ p {
 }
 
 .images-magasin {
-  width: 100%;
-  border-radius: 4px;
+
+}
+
+.padding-none {
+  padding: 0px;
 }
 
 .presentation-contenu p {
   margin-bottom: 0;
   margin-top: 1vh;
+}
+
+.form-group {
+  margin-bottom: 4vh !important;
+}
+
+.end-page {
+  margin-bottom: 5vh;
+}
+
+.marque-list {
+  text-align: center;
+}
+
+.marque-list img {
+  margin: 1vh 1vh;
+}
+
+.marque-list p {
+  margin: 1vh 1vh;
 }

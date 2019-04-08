@@ -1,7 +1,7 @@
 /* Main navbar */
 .navbar-wagon-xs {
   transition: all 0.3s ease;
-  height: 9vh;
+  height: 8vh;
   align-items: center;
   justify-content: space-between;
   font-family: 'Open Sans', sans-serif;
@@ -33,6 +33,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 100%;
 }
 
 /* Basic navbar item */
@@ -76,6 +77,7 @@
 
 .navbar-wagon-link:hover {
   text-decoration: none;
+  color: #333;
 }
 
 
