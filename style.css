@@ -3,6 +3,7 @@ html, body {
   padding-top: 5vh;
 }
 
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
@@ -10,12 +11,12 @@ p {
   font-weight: lighter;
 }
 
-.background h1 {
+body h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
 }
 
-.background h2 {
+body h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
 }
@@ -27,8 +28,8 @@ p {
 }
 
 .bandeau {
-  height: 91vh;
-  padding-top: 6vh;
+  min-height: 80vh;
+  padding-top: 4vh;
 }
 
 .photo-bagage {
@@ -216,14 +217,54 @@ p {
   margin-bottom: 5vh;
 }
 
-.marque-list {
-  text-align: center;
+.footer {
+  background: #F4F4F4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+  width: 100%;
 }
 
-.marque-list img {
-  margin: 1vh 1vh;
+.footer a:hover {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
 }
 
-.marque-list p {
-  margin: 1vh 1vh;
+.footer a {
+  text-decoration: none;
+  color: #898989;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+}
+
+.left-footer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-footer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container-logo {
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+
+.container-logo img {
+  margin: 0 auto;
 }

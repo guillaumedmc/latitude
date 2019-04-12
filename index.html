@@ -3,13 +3,17 @@
   <meta charset="UTF-8">
   <title>Maroquinerie Latitude Nantes</title>
   <meta charset="UTF-8">
+  <meta name="description" content="La maroquinerie multi-marque Latitude située à Nantes Beaujoire offre un large choix de sacs à main, valises, bagages, sacoches pour tous les budgets">
+  <meta name="keywords" content="sacs, Nantes, maroquinerie, Beaujoire, cuir">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="images/latitude.ico">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="navbar.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto:300,400" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,600|Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137241638-1"></script>
 <script>
@@ -19,107 +23,182 @@
 
   gtag('config', 'UA-137241638-1');
 </script>
-  <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
-  <script>
-    $(function(){
-      $("#header").load("navbar.html");
-    });
-  </script>
 </head>
 <body>
-  <div class="background">
-    <div id="header"></div>
-      <div class="container bandeau">
-      <div class="presentation-titre">
-        <h1>Un large choix de bagages et de maroquineries de grandes marques</h1>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 photo-bagage">
-          <div class="slideshow-container">
+  <div id="header"></div>
+  <div class="container bandeau">
+    <div class="presentation-titre">
+      <h1>Un large choix de bagages et de maroquineries de grandes marques</h1>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-6 photo-bagage">
+        <div class="slideshow-container">
 
-            <!-- Full-width images with number and caption text -->
-            <div class="mySlides fade">
-              <img src="images/maro2.jpg" style="width:100%">
-              <div class="text">Notre boutique Nantes Beaujoire</div>
-            </div>
-
-            <div class="mySlides fade">
-              <img src="images/maro1.jpg" style="width:100%">
-              <div class="text">Notre boutique Nantes Beaujoire</div>
-            </div>
-
-            <div class="mySlides fade">
-              <img src="images/interieur.jpg" >
-              <div class="text">Nos sacs</div>
-            </div>
-
-            <div class="mySlides fade">
-              <img src="images/nos bagages.jpg" >
-              <div class="text">Nos bagages</div>
-            </div>
-
-            <!-- Next and previous buttons -->
-            <a class="prev" style="text-decoration: none;" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" style="text-decoration: none;" onclick="plusSlides(1)">&#10095;</a>
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img src="images/maro2.jpg" style="width:100%">
+            <div class="text">Notre boutique Nantes Beaujoire</div>
           </div>
+
+          <div class="mySlides fade">
+            <img src="images/maro1.jpg" style="width:100%">
+            <div class="text">Notre boutique Nantes Beaujoire</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/interieur.jpg" >
+            <div class="text">Nos sacs</div>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/nos bagages.jpg" >
+            <div class="text">Nos bagages</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" style="text-decoration: none;" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" style="text-decoration: none;" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="presentation-contenu">
+          <p>Depuis 1994, notre maroquinerie Latitude vous accueille dans notre boutique (<a href="notre-boutique">découvrez ici</a>) située dans le <strong>Centre Commercial Carrefour La Beaujoire à Nantes.</strong></p>
           <br>
-
-          <!-- The dots/circles -->
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="presentation-contenu">
-            <p>Depuis 1994, notre maroquinerie Latitude vous accueille dans notre boutique (<a href="notre-boutique">découvrez ici</a>) située dans le Centre Commercial Carrefour La Beaujoire à Nantes.</p>
-            <br>
-            <p>Grace à notre savoir-faire, nous fournissons à nos clients :</p>
-            <ul>
-              <li><p>une large sélection de sacs, bagages, petite maroquinerie et accessoires de qualité et au meilleur prix</p></li>
-              <li><p>un accès aux dernières marques les plus tendances</p></li>
-              <li><p>des conseils personnalisés pour répondre à vos besoins</p></li>
-              <li><p>un service après-vente de qualité sur tous nos produits.</p></li>
-            </ul>
-            <br>
-            <p>La maroquinerie Latitude est multi-marques et travaille avec les grandes maisons françaises telles que Texier, Le Tanneur, Atelier Foures, Lancaster, Samsonite, Delsey et Kipling.</p>
-          </div>
+          <p>Grace à notre savoir-faire, nous fournissons à nos clients :</p>
+          <ul>
+            <li><p>une large sélection de sacs, bagages, petite maroquinerie et accessoires de qualité et au meilleur prix</p></li>
+            <li><p>un accès aux dernières marques les plus tendances</p></li>
+            <li><p>des conseils personnalisés pour répondre à vos besoins</p></li>
+            <li><p>un service après-vente de qualité sur tous nos produits.</p></li>
+          </ul>
+          <br>
+          <p>La maroquinerie Latitude est multi-marques et travaille avec les grandes maisons françaises telles que Texier, Le Tanneur, Atelier Foures, Lancaster, Samsonite, Delsey et Kipling.</p>
         </div>
       </div>
-      <div class="row nos-atouts">
-        <div class="presentation-titre">
-          <h1>Nos atouts</h1>
-        </div>
-        <div class="col-12 col-md-4 atouts">
-          <img src="images/product.png" height="40px" alt="">
-          <p> La maroquinerie Latitude propose des produits (<a href="nos-produits">à découvrir ici</a>) pour tous les budgets : si vous cherchez un sac à main en cuir pas cher, retrouvez notre sélection de premier prix à partir de 50€ offrant un très bon rapport qualité / prix.</p>
-        </div>
-        <div class="col-12 col-md-4 atouts">
-          <img src="images/discount.png" height="40px" alt="">
-          <p> Notre maroquinerie offre 10% de réduction tous les jeudis aux détenteurs de la Carte Pass, ainsi que des promotions et des remises exceptionnelles tout au long de l’année.</p>
-        </div>
-        <div class="col-12 col-md-4 atouts">
-          <img src="images/paiement.png" height="40px" alt="">
-          <p> Nous acceptons tous les moyens de paiements, y compris les chèques cadeaux tels que les Cadhoc.</p>
-        </div>
-      </div>
+    </div>
+    <div class="row nos-atouts">
       <div class="presentation-titre">
-        <h1>Nos marques</h1>
+        <h1>Nos atouts</h1>
       </div>
-      <div class="container marque-list end-page">
-        <img src="images/logos/arthur_aston.jpg" alt="Arthur & Aston" width="150px">
-        <img src="images/logos/atelier foures.jpg" alt="Atelier Foures" width="150px">
-        <img src="images/logos/quicksilver.jpg" alt="Quicksilver" width="150px">
-        <img src="images/logos/samsonite.jpg" alt="Samsonite" width="150px">
-        <img src="images/logos/Texier.jpg" alt="Texier" width="150px">
-        <p>... et bien d'autres !</p>
+      <div class="col-12 col-md-4 atouts">
+        <img src="images/product.png" height="40px" alt="">
+        <p> La maroquinerie Latitude propose des produits (<a href="nos-produits">à découvrir ici</a>) pour tous les budgets : si vous cherchez un sac à main en cuir à petit prix, retrouvez notre sélection de premier prix à partir de 50€ offrant un très bon rapport qualité / prix.</p>
       </div>
+      <div class="col-12 col-md-4 atouts">
+        <img src="images/discount.png" height="40px" alt="">
+        <p> Notre maroquinerie offre 10% de réduction tous les jeudis aux détenteurs de la Carte Pass, ainsi que des promotions et des remises exceptionnelles tout au long de l’année.</p>
+      </div>
+      <div class="col-12 col-md-4 atouts">
+        <img src="images/paiement.png" height="40px" alt="">
+        <p> Nous acceptons tous les moyens de paiements, y compris les chèques cadeaux tels que les Cadhoc.</p>
+      </div>
+    </div>
+    <div class="presentation-titre">
+      <h1>Les marques que nous proposons</h1>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+    <div class="container end-page" style="height:20vh;">
+       <section class="responsive slider">
+          <div class="slide container-logo"><img src="images/logos/arthur_aston.jpg" alt="Arthur & Aston" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/atelier foures.jpg" alt="Atelier Foures" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/davidts.jpg" alt="Davidts" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/delsey.jpg" alt="Delsey" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/Elite.jpg" alt="Elite" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/francinel.jpg" alt="Francinel" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/Frederic.jpg" alt="Frederic" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/gerard henon.jpg" alt="Gerard Henon" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/hdegren.jpg" alt="Hedgren" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/hexagona.jpg" alt="Hexagona" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/isotoner.jpg" alt="Isotoner" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/katana.jpg" alt="Katana" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/kipling.jpg" alt="Kipling" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/lancaster.jpg" alt="Lancaster" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/le tanneur.jpg" alt="Le Tanneur" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/logo-jump.jpg" alt="Jump" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/neyrat.jpg" alt="Neyrat" width="120px"></div>
+          <div class="slide container-logo"><img src="images/logos/quicksilver.jpg" alt="Quicksilver" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/rip curl.jpg" alt="Rip Curl" width="120px"></div>
+          <div class="slide container-logo"><img src="images/logos/roxy.jpg" alt="Roxy" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/sabrina.jpg" alt="Sabrina" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/samsonite.jpg" alt="Samsonite" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/tann's.jpg" alt="Tann's" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/ted lapidus.jpg" alt="Ted Lapidus" width="150px"></div>
+          <div class="slide container-logo"><img src="images/logos/Texier.jpg" alt="Texier" width="80px"></div>
+       </section>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="left-footer hidden-xs hidden-sm">
+      <a href="/">Accueil</a> |
+      <a href="notre-boutique">Notre boutique</a> |
+      <a href="nos-produits">Nos produits</a> |
+      <a href="nous-contacter">Contact</a>
+    </div>
+    <div class="right-footer">
+      <div><p><strong>Maroquinierie Latitude</strong></p></div>
+      <div><p>Centre Commercial Nantes La Beaujoire<p></div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script src="index.js"></script>
+  <script type="text/javascript">
+    $('.responsive').slick({
+      dots: true,
+      autoplay: true,
+      pauseOnHover: true,
+      autoplaySpeed: 2000,
+      speed: 1500,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      draggable: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+          }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+  </script>
+  <script>
+  $(function(){
+    $("#header").load("navbar.html");
+  });
+</script>
 </body>
 </html>
