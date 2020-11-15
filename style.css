@@ -268,3 +268,16 @@ body h2 {
 .container-logo img {
   margin: 0 auto;
 }
+
+.banner-insta {
+  /*height: 90px;*/
+  /*width: 100vw;*/
+  background-color: #f5b461;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.banner-insta p {
+  font-size: 1.7em;
+  color: black
+}
